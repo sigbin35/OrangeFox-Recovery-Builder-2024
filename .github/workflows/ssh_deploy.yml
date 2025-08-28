@@ -36,4 +36,3 @@ jobs:
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} "sudo /bin/systemctl restart nginx"
           echo "Nginx service restarted successfully"
-If anyone has any notes or comments about security and hardening it would be greatly
